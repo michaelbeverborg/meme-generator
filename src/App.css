@@ -1,0 +1,28 @@
+body {
+  width: 1000px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  padding: 20px;
+}
+
+header img {
+  height: 100%;
+  margin-right: 6px;
+}
+
+header p {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+header h3 {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
