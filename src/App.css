@@ -1,11 +1,11 @@
 body {
-  width: 1000px;
+  max-width: 60rem;
   margin: auto;
 }
 
 header {
   display: flex;
-  align-items: center;
+  place-items: center;
   height: 100px;
   background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
   color: white;
@@ -25,4 +25,32 @@ header p {
 header h3 {
   font-size: 1.25rem;
   margin-right: auto;
+}
+form {
+  margin: 20px 0;
+}
+
+input[type="text"],
+input[type="button"] {
+  display: block;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+input[type="text"] {
+  text-align: center;
+  width: 50%;
+}
+
+input[type="button"] {
+  color: #fff;
+  border: 0;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+input[type="button"]:hover {
+  color: #fff;
+  border: 0;
+  background: linear-gradient(#672280 1.18%, #a626d3 100%);
+  cursor: pointer;
 }
