@@ -26,9 +26,6 @@ header h3 {
   font-size: 1.25rem;
   margin-right: auto;
 }
-form {
-  margin: 20px 0;
-}
 
 input[type="text"],
 input[type="button"] {
@@ -53,4 +50,9 @@ input[type="button"]:hover {
   border: 0;
   background: linear-gradient(#672280 1.18%, #a626d3 100%);
   cursor: pointer;
+}
+
+main img {
+  justify-self: center;
+  max-width: 100%;
 }
